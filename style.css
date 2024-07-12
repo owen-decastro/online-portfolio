@@ -1,0 +1,439 @@
+@font-face{
+    font-family: "cyber";
+    src: url("cyberdyne.ttf");
+}
+@font-face{
+    font-family: "var";
+    src: url("Freshman.ttf");
+}
+@font-face{
+    font-family: "neb";
+    src: url("Nebula-Regular.otf");
+}
+body{
+    background-color: #fff;
+    margin: 0%;
+}
+.navbar {
+    display: flex;
+    padding: auto;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adjust the shadow values */
+    overflow: hidden;
+    justify-content: center;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    z-index: 1000;
+}
+
+.navbar a {
+    position:fixed;
+    color:#E59312;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 20px;
+    position: relative;
+    left:5%;
+    width: 100px;
+    font-family: "var";
+}
+.logopng{
+    position: fixed;
+    position: relative;
+    right: 60%;
+    width: 150px;
+    height: 150px;
+}
+.gitlogo{
+    position:fixed;
+    width:50px;
+    height: 50px;
+    position: relative;
+    left: 110px;
+}
+.home {
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    background-color: #1A141A;
+    height: 102vh; /* Full viewport height */
+    width: 98.7.1vw;  /* Full viewport width */
+}
+/* RIGHT SCREEN PARAGRAPH */
+.r_screen_cont1 {
+    position: relative;
+    left:0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Ensure it takes full height of the viewport */
+    text-align: justify; /* Justify text */
+}
+.hello {
+    position: relative;
+    left: 255px;
+    bottom: 50px; /* Remove top offset */
+    margin-bottom: 20px; /* Add some space below .hello */
+    height: fit-content;
+    font-family: "cyber";
+    color: azure;
+    font-size: 25px;
+}
+
+.para1 {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    top:60px; /* Remove top offset */
+    left: 18px;
+    width: 100%; /* Adjust width as needed */
+    font-family: "var";
+    font-size: 20px;
+    color: #E59312;
+    line-height: 1.6;
+    
+}
+.nebula{
+    width: fit-content;
+    font-family: "neb";
+    color: azure;
+    font-size: 20px;
+    font-weight: bold;
+}
+.l_screen_cont1{
+    position: relative;
+    left: 10%;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Ensure it takes full height of the viewport */
+    text-align: justify; /* Justify text */
+}
+.pic1{
+    position: relative;
+    top: 50px;
+    right: 10%;
+    width: 400px;
+}
+
+
+.cv {
+
+    font-family: "nebula";
+    font-size: 16px; /* Adjust font size */
+    cursor: pointer;
+    padding: 10px 20px; /* Add padding for better spacing */
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+    height: 100%;
+    font-family: "var";
+    font-size: 15px;    
+    border: #E59312 solid 5px;
+    position: relative;
+    top: 200px;
+    right: 800px;
+    height: fit-content;
+    width: fit-content;
+    
+}
+
+.cv:hover {
+    background-color: #E59312;
+    color: #1A141A;
+}
+
+.about{
+    display: flex;
+    background-color:#FFFFFF;
+    height: 1000px;
+
+}
+.web{
+    position: relative;
+    top: 300px;
+    right: 700px;
+}
+.vars{
+    position: relative;
+    top: 210px;
+    right: 800px;
+    font-family: "var";
+    font-size: 25px;
+
+}
+.pic2{
+    position: relative;
+    left: 1080px;
+    top: 320px;
+    transform: rotate(180deg);
+    transform: rotate(90deg);
+
+}
+.des{
+    position: relative;
+    left:870px ;
+    bottom: 050px;
+    width: 200px;
+    height: 200px;
+}
+.des2{  
+    position: relative;
+    left: 1100px;
+    top: 300px;
+    width: 200px;
+    height: 200px;
+}
+#nebula{
+    position: relative;
+    left: 200px;
+    bottom: 90px;
+    display: flex;
+    font-family: "neb";
+    font-size: 40px;
+    color: #E59312;
+
+}
+#iam{
+    font-family: "cyber";
+    position: relative;
+    right: 100px;
+    bottom: 50px;
+}
+.project{
+    background-color: #1A141A;
+    position: relative;
+    top: 50px;
+}
+.project{
+    height: 1000px;
+    position: relative;
+    bottom: 300px;
+}
+.projcont{
+    width: fit-content;
+}
+.proj1{
+    position: relative;
+    top: 100px;
+    left:950px ;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    border: 1px;
+}
+.proj2{
+    position: relative;
+    top: 150px;
+    left: 250px;
+}
+#see{
+    position: relative;
+    top: 900px;
+    left:970px;
+    border: #E59312 solid 5px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    color: #E59312;
+    font-family: "var";
+    font-size: 20px;
+    text-decoration: underline;
+}
+.aaa{
+    color: #E59312;
+    position: relative;
+    top: 200px;
+    left: 750px;
+    font-size: 30px;
+}
+
+.projects{
+    font-family: "var";
+    color: #FFFFFF;
+    font-size: 50px;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    left: 750px;
+    top: 100px;
+}
+a{
+    text-decoration: none;
+    color: #333;
+    font-family: "neb";
+    font-size: 25px;
+}
+.contact {
+    background-color: #FFFFFF;
+    height:780px ;
+    position: relative;
+    top: 170px;
+    height: fit-content;
+}
+
+.loc{
+    height:100px ;
+    width: 100px;
+    position: relative;
+    left:700px ;
+    bottom: 300px;
+
+}
+.address{
+    position: relative;
+    top: 150px;
+    left: 150px;
+    width: fit-content;
+}
+/* location */
+
+/* contact */
+.cont{
+    height:100px ;
+    width: 100px;
+    position: relative;
+    left:700px ;
+    bottom: 300px;
+}
+.num{
+    position: relative;
+    top: 170px;
+    left: 400px;
+    width: fit-content;
+}
+/* contact */
+/* gmail */
+.email{
+    height:100px ;
+    width: 100px;
+    position: relative;
+    left:700px ;
+    bottom: 300px;
+}
+.gmail{
+    position: relative;
+    top: 200px;
+    left: 210px;
+    width: fit-content;
+}
+/* gamil */
+/* mess */
+.mess{
+    height:100px ;
+    width: 100px;
+    position: relative;
+    left:700px ;
+    bottom: 300px;
+   
+}
+.fb{
+    position: relative;
+    top: 220px;
+    left: 410px;
+    width: fit-content;
+}
+/* mess */
+/* git */
+.gh{
+    height:100px ;
+    width: 100px;
+    position: relative;
+    left:700px ;
+    bottom: 300px;
+    height: fit-content;
+    
+   
+}
+.gitt{
+    position: relative;
+    top: 230px;
+    left: 420px;
+    width: fit-content;
+}
+/* git */
+.contdes{
+    position: relative;
+    bottom: 620px;
+    height: fit-content;
+    width: fit-content;
+}
+/* form */
+.name, .emem {
+    font-family: "neb";
+    text-indent: 10px;
+    background-color: none;
+    height: 50px;
+    width: 550px;
+    font-size: 30px;
+    border: #E59312 solid 5px;
+    border-radius: 50px;
+}
+.name{
+    position: relative;
+    bottom: 1120px;
+    left: 700px ;
+}
+.emem {
+    position: relative;
+    bottom: 1050px;
+    left: 135px;
+}
+
+.chat {
+    height: 300px;
+    position: relative;
+    font-size: 25px;
+    bottom: 1040px;
+    left: 1075px;
+    border: #E59312 solid 5px;
+    border-radius: 50px;
+    font-family: "neb";
+    text-indent: 10px;
+    width: 550px;
+}
+.send{
+    height: fit-content;
+    width: fit-content;
+    background-color: #FFFFFF;
+    color: #E59312;
+    border: #E59312 solid 5px;
+    border-radius: 50px;
+    font-family: "neb";
+    font-size: 40px;
+    position: relative;
+    bottom: 830px;
+    left: 700px;
+}
+.footer{
+    margin-top: 5px;
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    color: #fff;
+    background-color: #1A141A;
+    font-family: "var";
+    position: relative;
+    top: 150px;
+}
+@media screen and (max-width:768px) {
+    .navbar{
+        margin: 0%;
+        width: fit-content;
+        display: flex;
+    }
+    .logopng{
+        visibility: hidden;
+    }
+    .gitlogo{
+        visibility: hidden;
+    }
+    .hello, .para1{
+        display: flex;
+        font-size: 15px;
+    }
+}
